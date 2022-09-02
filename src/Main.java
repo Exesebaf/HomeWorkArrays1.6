@@ -35,11 +35,8 @@ public class Main {
             symbl = reverseFullName[i];
             reverseFullName[i] = reverseFullName[reverseFullName.length - 1 - i];
             reverseFullName[reverseFullName.length - 1 - i] = symbl;
-
         }
         System.out.println(reverseFullName);
-
-
     }
 
 
